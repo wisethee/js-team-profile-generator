@@ -12,6 +12,9 @@ Generated **team.html** screenshot
 
 ![Generated HTML File](./assets/generated-html-file.png)
 
+Application demo screenshot
+![Application Demo](./assets/console-app-example.png)
+
 ---
 
 ## Table of Contents
