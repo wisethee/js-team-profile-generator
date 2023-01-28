@@ -39,7 +39,7 @@ const employeeQuestions = [
     name: "name",
     message: "What is your name?",
     default() {
-      return "Marius Paduraru";
+      return "Roy Glenn";
     },
     validate: (answer) => {
       if (answer !== "") {
@@ -68,7 +68,7 @@ const employeeQuestions = [
     name: "email",
     message: "What is your email address?",
     default() {
-      return "marius@mail.com";
+      return "roy@mail.com";
     },
     validate: (answer) => {
       const pass = answer.match(/\S+@\S+\.\S+/);
