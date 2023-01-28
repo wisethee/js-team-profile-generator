@@ -19,6 +19,10 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const teamMembers = [];
 
+/**
+ * after the user finished answering all questions, the user exit the application
+ * function **renderTeamMembers** is called to render the HTML file
+ */
 const renderTeamMembers = () => {
   return fs.writeFileSync(outputPath, render(teamMembers));
 };
