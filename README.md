@@ -1,4 +1,4 @@
-# js-team-profile-generator
+# Team Profile Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Language: NODE](https://img.shields.io/badge/node-19.4.0-green)
