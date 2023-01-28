@@ -8,6 +8,10 @@
 
 This is a command-line application that dynamically generates a team.html page based on the user's input using the Inquirer package.
 
+Generated **team.html** screenshot
+
+![Generated HTML File](./assets/generated-html-file.png)
+
 ---
 
 ## Table of Contents
