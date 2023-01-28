@@ -38,9 +38,6 @@ const employeeQuestions = [
     type: "input",
     name: "name",
     message: "What is your name?",
-    default() {
-      return "Roy Glenn";
-    },
     validate: (answer) => {
       if (answer !== "") {
         return true;
@@ -52,9 +49,6 @@ const employeeQuestions = [
     type: "input",
     name: "id",
     message: "What is your employee ID?",
-    default() {
-      return "9";
-    },
     validate: (answer) => {
       const pass = answer.match(/^[1-9]\d*$/);
       if (pass) {
@@ -67,9 +61,6 @@ const employeeQuestions = [
     type: "input",
     name: "email",
     message: "What is your email address?",
-    default() {
-      return "roy@mail.com";
-    },
     validate: (answer) => {
       const pass = answer.match(/\S+@\S+\.\S+/);
       if (pass) {
@@ -107,9 +98,6 @@ const managerQuestions = [
     type: "input",
     name: "officeNumber",
     message: "What is your office number?",
-    default() {
-      return "369";
-    },
     validate: (answer) => {
       const pass = answer.match(/^[1-9]\d*$/);
       if (pass) {
