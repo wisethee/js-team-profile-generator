@@ -1,0 +1,25 @@
+.team-area {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.list-group-item {
+  display: flex;
+  gap: 0.24rem;
+}
+
+.card {
+  width: 100%;
+}
+
+@media (min-width: 906px) {
+  .card {
+    width: calc(50% - 0.75rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  .card {
+    width: calc(33.33% - 1.5rem);
+  }
+}
