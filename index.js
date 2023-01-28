@@ -217,7 +217,6 @@ const addEngineer = () => {
       case "Yes":
         choseWhatRoleToAdd();
         break;
-        break;
       default:
         console.log("No more team members to add.");
     }
